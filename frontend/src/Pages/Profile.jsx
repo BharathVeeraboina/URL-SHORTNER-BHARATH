@@ -27,7 +27,7 @@ export default function Profile() {
 
   return (
     <div>
-      <Center maw={1000} h={50}>
+      <Center maw={1500} h={50}>
         <Avatar
           src={ProfileData?.avatar}
           alt="it's me"
@@ -41,7 +41,6 @@ export default function Profile() {
       <Text ta="center" style={{ marginTop: "10px" }}>
         {ProfileData?.email}
       </Text>
-      
     </div>
   );
 }
